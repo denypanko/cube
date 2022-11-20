@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: lightgray;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+div {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.first-cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-cube {
+    display: flex;
+    justify-content: center;
+}
+
+.third-cube {
+    display: flex;
+}
+
+.four-cube {
+    display: flex;
+}
+
+.five-cube {
+    display: flex;
+}
+
+.six-cube {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.six-cube .left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.six-cube .right {
+    display: flex;
+    align-items: flex-end;
+}
+
